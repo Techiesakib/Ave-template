@@ -1,0 +1,440 @@
+/* headersection */
+
+#header {
+    background-image: url(img/bg-78.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.navbar-text {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.text-home {
+    color: #fd5c4c;
+}
+
+.list {
+    font-size: 15px;
+    color: black;
+}
+
+.list:hover {
+    color: #fd5c4c;
+}
+
+
+/* avenuesection */
+
+#avenue {
+    height: 700px;
+}
+
+.article {
+    margin-top: 100px;
+}
+
+.laptop {
+    width: 900px;
+}
+
+.creative {
+    font-size: 50px;
+}
+
+.with {
+    font-size: 20px;
+    line-height: 30px;
+    color: dimgray;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #fd5c4c 40%, orange 100%);
+}
+
+.btn:hover {
+    background: #fd5c4c;
+}
+
+.see {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.see:hover {
+    color: #fd5c4c;
+}
+
+.pic {
+    margin-left: 5px;
+}
+
+
+/* consultsection */
+
+#consult {
+    margin: 120px;
+}
+
+
+/* aboutsection */
+
+#About {
+    margin-top: 200px;
+    background-image: url(img/bg-76.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.simple {
+    margin-bottom: 100px;
+}
+
+.icon {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.detail {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.idea {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.kick {
+    margin-top: 30px;
+    color: dimgrey;
+}
+
+.seven {
+    position: relative;
+    top: 25px;
+    height: 93%;
+}
+
+.eight {
+    position: absolute;
+    left: 150px;
+}
+
+.good {
+    margin-top: 280px;
+}
+
+.about-us {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.font {
+    font-size: 60px;
+}
+
+.business {
+    margin-top: 50px;
+    color: grey;
+}
+
+.text {
+    margin-top: 50px;
+    color: gray;
+}
+
+
+/* servicesection */
+
+#service {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.best {
+    margin-top: 80px;
+}
+
+.serve {
+    font-size: 20px;
+}
+
+.best {
+    font-size: 50px;
+}
+
+.for {
+    font-size: 50px;
+}
+
+.description {
+    margin-top: 40px;
+    font-size: 20px;
+    color: gray;
+}
+
+.brand-animation {
+    margin-top: 30px;
+}
+
+.branding {
+    height: 290px;
+    width: 250px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 10px 10px 90px grey;
+    margin-top: 30px;
+}
+
+.branding:hover {
+    background: #fd5c4c;
+}
+
+.book {
+    padding-left: 35px;
+    padding-top: 40px;
+}
+
+.brand {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.books {
+    margin-top: 30px;
+}
+
+.animate {
+    margin-top: 20px;
+    color: grey;
+}
+
+.project {
+    margin-top: 200px;
+}
+
+#latest {
+    font-size: 50px;
+}
+
+.list {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.print {
+    color: gray;
+}
+
+.print:hover {
+    color: black;
+}
+
+.all {
+    color: black;
+}
+
+.project-list {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.photo {
+    width: 120%;
+}
+
+.box {
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+
+.fasion {
+    height: 80px;
+    width: 250px;
+    background-color: cornsilk;
+    position: absolute;
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 45px;
+    margin-top: 0px;
+}
+
+.fasion:hover {
+    margin-bottom: 50px;
+}
+
+.super {
+    margin-top: 30px;
+}
+
+
+/* projectnumsection */
+
+#project-number {
+    margin-top: 200px;
+}
+
+
+/* clientsection */
+
+#client {
+    margin-top: 200px;
+    background-image: url(img/bg-78.svg);
+    background-repeat: no-repeat;
+}
+
+.theme {
+    font-size: 30px;
+}
+
+.beautiful {
+    margin-top: 170px;
+    position: relative;
+}
+
+.dav {
+    margin-left: 50px;
+}
+
+.holand {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.senior {
+    margin-left: 60px;
+}
+
+.ninety {
+    font-size: 100px;
+}
+
+.twenty {
+    position: absolute;
+    top: 600px;
+    left: 450px;
+}
+
+.test {
+    margin-top: 40px;
+}
+
+.trust {
+    font-size: 70px;
+}
+
+.girl {
+    margin-top: 200px;
+}
+
+
+/* cartsection */
+
+#cart {
+    margin-top: 300px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.afford {
+    font-size: 50px;
+}
+
+.personal {
+    box-shadow: 10px 10px 40px grey;
+    width: 400px;
+    height: 650px;
+    margin: 100px 0;
+}
+
+.cartinner {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.cartin {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nine {
+    font-size: 50px;
+}
+
+.custom {
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+}
+
+.cartbig-one {
+    width: 33%;
+    float: left;
+}
+
+.cartbig-two {
+    float: left;
+    width: 33%;
+}
+
+.cartbig-three {
+    float: right;
+    width: 33%;
+}
+
+.editor {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.post:hover {
+    box-shadow: 2px 2px 40px gray;
+}
+
+
+/* footersection */
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footright {
+    margin-right: 160px;
+}
+
+.last {
+    margin: 80px 0;
+}
+
+.link {
+    margin-left: 70%;
+}
