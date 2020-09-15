@@ -1,4 +1,14 @@
-/* headersection */
+/*headersection*/
+
+@font-face {
+    font-family: volte;
+    src: url(font/VolteLight.otf);
+}
+
+.navbar-brand {
+    margin-left: 23px;
+    margin-bottom: 4px;
+}
 
 #header {
     background-image: url(img/bg-78.svg);
@@ -12,17 +22,52 @@
     margin-top: 15px;
 }
 
-.text-home {
+.home {
     color: #fd5c4c;
+    font-size: 17px;
+    margin-left: 19px;
+    letter-spacing: .025em;
 }
 
-.list {
-    font-size: 15px;
+.lists {
+    font-size: 17px;
     color: black;
+    margin-left: 19px;
+    letter-spacing: .025em;
 }
 
-.list:hover {
+.lists:hover {
     color: #fd5c4c;
+}
+
+.navbar-text p {
+    font-size: 17px;
+    letter-spacing: .025em;
+    margin-right: 5px;
+}
+
+.num {
+    font-size: 16.5px;
+    color: #fd5c4c;
+    letter-spacing: .025em;
+}
+
+.purchase {
+    border: 1px solid #fd5c4c;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    color: #fd5c4c;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    margin-right: 28px;
+}
+
+.purchase:hover {
+    background: #fd5c4c;
+    color: white;
+    box-shadow: 0 8px 15px -6px grey;
 }
 
 
@@ -30,10 +75,16 @@
 
 #avenue {
     height: 700px;
+    overflow: hidden;
+}
+
+.avenue {
+    font-size: 22px;
+    color: #fd5c4c;
 }
 
 .article {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .laptop {
@@ -41,28 +92,34 @@
 }
 
 .creative {
-    font-size: 50px;
+    font-size: 60px;
+    color: black;
 }
 
 .with {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    color: dimgray;
+    color: grey;
+    margin-top: 50px;
 }
 
-.btn {
+.early {
     border-radius: 30px;
-    padding: 15px 30px;
-    background-image: linear-gradient(to right, #fd5c4c 40%, orange 100%);
+    padding: 17px 50px;
+    background: linear-gradient(to right, #ff3385 0%, #ff471a 100%);
+    color: white;
+    margin-top: 40px;
 }
 
-.btn:hover {
-    background: #fd5c4c;
+.early:hover {
+    background: #ff3385;
+    color: white;
+    box-shadow: 0 8px 15px -6px grey;
 }
 
 .see {
-    margin-right: 100px;
-    margin-top: 20px;
+    margin-right: 55px;
+    margin-top: 60px;
 }
 
 .see:hover {
@@ -88,24 +145,30 @@
     background-image: url(img/bg-76.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: -300px 160px;
+}
+
+.it {
+    color: #fd5c4c;
+    font-size: 18px;
 }
 
 .simple {
     margin-bottom: 100px;
+    font-size: 60px;
 }
 
 .icon {
-    padding-left: 40px;
+    padding-left: 50px;
     padding-top: 40px;
 }
 
 .detail {
-    height: 350px;
-    width: 350px;
-    border-radius: 10px;
+    height: 355px;
+    width: 345px;
+    border-radius: 5px;
     background: white;
-    box-shadow: 2px 2px 10px grey;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
 }
 
 .idea {
@@ -114,9 +177,15 @@
     padding-right: 40px;
 }
 
+.idea h3 {
+    padding: 0 10px;
+}
+
 .kick {
     margin-top: 30px;
-    color: dimgrey;
+    color: gray;
+    padding: 0 10px;
+    font-size: 19px;
 }
 
 .seven {
@@ -131,16 +200,22 @@
 }
 
 .good {
-    margin-top: 280px;
+    margin-top: 200px;
+    padding-bottom: 150px;
 }
 
 .about-us {
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
+.us {
+    color: #fd5c4c;
+    font-size: 18px;
+}
+
 .font {
-    font-size: 60px;
+    font-size: 66px;
 }
 
 .business {
@@ -151,6 +226,8 @@
 .text {
     margin-top: 50px;
     color: gray;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 
@@ -167,14 +244,17 @@
 
 .serve {
     font-size: 20px;
+    margin-top: 110px;
+    color: #fd5c4c;
 }
 
 .best {
-    font-size: 50px;
+    font-size: 60px;
+    margin: 0;
 }
 
 .for {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .description {
@@ -189,15 +269,16 @@
 
 .branding {
     height: 290px;
-    width: 250px;
-    border-radius: 5px;
+    width: 260px;
+    border-radius: 10px;
     background: white;
-    box-shadow: 10px 10px 90px grey;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
     margin-top: 30px;
 }
 
 .branding:hover {
     background: #fd5c4c;
+    color: white;
 }
 
 .book {
@@ -207,7 +288,7 @@
 
 .brand {
     padding-left: 40px;
-    padding-right: 50px;
+    padding-right: 39px;
 }
 
 .books {
@@ -216,20 +297,35 @@
 
 .animate {
     margin-top: 20px;
-    color: grey;
+    color: gray;
+    line-height: 25px;
 }
 
 .project {
     margin-top: 200px;
 }
 
+.pro {
+    color: #fd5c4c;
+    font-size: 20px;
+    letter-spacing: 0.09em;
+}
+
+.works {
+    font-size: 60px;
+}
+
 #latest {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .list {
     margin-top: 30px;
     margin-left: 50px;
+}
+
+.lis {
+    margin-top: 40px;
 }
 
 ul {
@@ -254,10 +350,12 @@ li a {
 
 .print:hover {
     color: black;
+    text-decoration: none;
 }
 
 .all {
     color: black;
+    text-decoration: none;
 }
 
 .project-list {
@@ -272,7 +370,6 @@ li a {
 .box {
     height: 150px;
     width: 300px;
-    position: relative;
 }
 
 .fasion {
@@ -281,17 +378,14 @@ li a {
     background-color: cornsilk;
     position: absolute;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 10px;
     margin-left: 45px;
-    margin-top: 0px;
 }
 
 .fasion:hover {
-    margin-bottom: 50px;
-}
-
-.super {
-    margin-top: 30px;
+    bottom: 50px;
+    transition-duration: 0.3s;
+    transition: top 2s;
 }
 
 
@@ -299,6 +393,17 @@ li a {
 
 #project-number {
     margin-top: 200px;
+}
+
+.done {
+    color: #fd5c4c;
+    font-size: 17px;
+}
+
+.number {
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -323,6 +428,10 @@ li a {
     margin-left: 50px;
 }
 
+.david {
+    padding: 50px 0;
+}
+
 .holand {
     margin-top: 60px;
     margin-left: 80px;
@@ -330,10 +439,12 @@ li a {
 
 .senior {
     margin-left: 60px;
+    color: gray;
 }
 
 .ninety {
     font-size: 100px;
+    color: #fd5c4c;
 }
 
 .twenty {
@@ -344,10 +455,12 @@ li a {
 
 .test {
     margin-top: 40px;
+    font-size: 18px;
+    color: #fd5c4c;
 }
 
 .trust {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .girl {
@@ -359,6 +472,15 @@ li a {
 
 #cart {
     margin-top: 300px;
+    background-image: url(img/bg-76.svg);
+    background-position: 945px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plans {
+    color: #fd5c4c;
+    font-size: 18px;
 }
 
 .plan {
@@ -366,14 +488,13 @@ li a {
 }
 
 .afford {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .personal {
-    box-shadow: 10px 10px 40px grey;
-    width: 400px;
-    height: 650px;
+    width: 380px;
     margin: 100px 0;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
 }
 
 .cartinner {
@@ -384,6 +505,11 @@ li a {
 .cartin {
     text-align: center;
     margin-top: 100px;
+    padding: 0 90px;
+}
+
+.cartbig-two {
+    box-shadow: 5px 5px 40px silver;
 }
 
 .nine {
@@ -395,40 +521,105 @@ li a {
     text-decoration-line: underline;
 }
 
-.cartbig-one {
-    width: 33%;
-    float: left;
-}
-
-.cartbig-two {
-    float: left;
-    width: 33%;
-}
-
-.cartbig-three {
-    float: right;
-    width: 33%;
-}
-
 .editor {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.post:hover {
-    box-shadow: 2px 2px 40px gray;
+.post img:hover {
+    box-shadow: 0 8px 15px -6px grey;
+}
+
+.popular {
+    text-align: center;
+    background: linear-gradient(to right, #ff3385 0%, #ff471a 100%);
+    width: 160px;
+    margin: auto;
+    border-radius: 0 0 50em 50em;
+    padding: 5px 30px;
+    color: white;
+    position: absolute;
+    left: 32%;
+    top: 100px;
+    line-height: 1.5em;
+}
+
+.start {
+    border: 1px solid #fd5c4c;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    color: #fd5c4c;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    margin-bottom: 70px;
+}
+
+.start:hover {
+    background: #fd5c4c;
+    color: white;
+    box-shadow: 0 8px 15px -6px grey;
+}
+
+.second {
+    background: #fd5c4c;
+    color: white;
+}
+
+.third {
+    margin-bottom: 50px;
+}
+
+.edit {
+    color: #fd5c4c;
+    font-size: 18px;
+    letter-spacing: 0.09em;
+}
+
+.latest {
+    font-size: 60px;
+    color: black;
+}
+
+.posts {
+    font-weight: bold;
+}
+
+.post {
+    margin-bottom: 150px;
+}
+
+.steel {
+    margin-top: 20px;
+}
+
+.plant {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.plant:hover {
+    color: #fd5c4c;
+    cursor: pointer;
+}
+
+.five {
+    font-size: 15px;
+    color: gray;
 }
 
 
 /* footersection */
 
 footer {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 
 .footright {
     margin-right: 160px;
+    color: gray;
 }
 
 .last {
@@ -437,4 +628,27 @@ footer {
 
 .link {
     margin-left: 70%;
+}
+
+.foot p {
+    color: grey;
+}
+
+.foot p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.foot {
+    line-height: 15px;
+}
+
+.foot h5 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.ave {
+    color: #fd5c4c;
+    font-weight: bold;
 }
